@@ -1,0 +1,10 @@
+1. First run get_post.py file. It is actually the application file
+2. Then run get_post_locust_test.py file. It is actually the locust load test file.
+
+---Application run command--
+>py get_post.py
+
+---Locust run command---
+>locust -f get_post_locust_test.py
+
+#locust host port "http://localhost:8089/"
